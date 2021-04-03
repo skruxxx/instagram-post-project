@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arimo;
+}
+
+#container {
+    width: 30%;
+    padding: 15px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#header,#html, #icons, #socials {
+    display: flex;
+}
+
+#header {
+    justify-content: space-between;
+    margin: 0 10px 12px 10px;
+}
+
+#header, #html {
+    align-items: center;
+}
+
+#name h3 {
+    margin: 0;
+    padding-left: 10px;
+}
+
+#icons {
+    margin: 12px 10px 0 4px;
+}
+
+img {
+    width: 100%;
+}
+
+.bookmark {
+    width: 100%;
+    text-align: end;
+}
+
+#socials div{
+   margin: 0 6px; 
+}
